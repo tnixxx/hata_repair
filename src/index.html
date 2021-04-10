@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ремонт квартир</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <div class="container px-0">
+            <nav class="navbar d-flex justify-content-between align-items-center px-0">
+                <img src="img/logo.png" alt="Logo">
+                <div class="navbar-wrapper d-flex">
+                    <div class="navbar-contacts text-right d-md-flex flex-column justify-content-around d-none">
+                        <div class="navbar__address">Калуга, Москва, МО</div>
+                        <a class="navbar__phone font-weight-bold" href="tel:+7 (495) 42-251-31">+7 (495) 42-251-31</a>
+                    </div>
+                    <button type="button" data-toggle="modal" data-target=".bd-example-modal-xl" class="btn navbar-contacts__btn btn-yellow">Перезвоните мне</button>
+                    <div class="modal fade bd-example-modal-xl" tabindex="-1" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-xl">
+                            <div class="modal-content">
+                                <div class="row">
+                                    <div class="modal-body d-flex">
+                                        <div class="modal-left">
+                                            <div class="modal-card">
+                                                <div class="horizontal-card">
+                                                    <img src="img/modal/modal-bathroom.png" alt="" class="card__image">
+                                                    <div class="cards">
+                                                        <h2 class="cards__title">Ванная комната</h2>
+                                                        <span class="cards__price">135*150 <b>- 31 000 руб.</b><br>170*170 <b>- 43 000 руб.</b></span>
+                                                    </div>
+                                                </div>
+                                                <div class="horizontal-card">
+                                                    <img src="img/modal/modal-toilet.png" alt="" class="card__image">
+                                                    <div class="cards">
+                                                        <h2 class="cards__title">Туалет</h2>
+                                                        <span class="cards__price">135*70 <b>- 14 000 руб.</b></span>
+                                                    </div>
+                                                </div>
+                                                <div class="horizontal-card">
+                                                    <img src="img/modal/modal-combo.png" alt="" class="card__image">
+                                                    <div class="cards">
+                                                        <h2 class="cards__title">Совмещенный санузел</h2> 
+                                                        <span class="cards__price">170*210 <b>- 54 000 руб.</b></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="container">
+                                                <h2 class="modal__title">В стоимость работ входит</h2>
+                                                <ul class="modal-list">
+                                                    <li class="modal-list__item">Демонтаж старого покрытия стен и пола</li>
+                                                    <li class="modal-list__item">Выравнивание стен гипсовыми составками</li>
+                                                    <li class="modal-list__item">Грунтовка стен и пола антисептиком, бетоноконтактом</li>
+                                                    <li class="modal-list__item">Монтаж кафельной плитки на полу и стенах</li>
+                                                    <li class="modal-list__item">Установка реечного или натяжного потолка, светильников</li>
+                                                    <li class="modal-list__item">Монтаж двери с коробкой</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="modal-right">
+                                            <div class="container offer">
+                                                <h4 class="offer__title">Узнайте точную стоимость<br>ремонта по телефону!</h4>
+                                                <span class="offer__subtitle">Заполните поля ниже - мы свяжемся с Вами </span>
+                                                <form>
+                                                    <div class="form-group">
+                                                        <input type="text" class="form-control modal-form" id="formGroupExampleInput" placeholder="Ваше имя" type="name">
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <input type="text" class="form-control modal-form" id="formGroupExampleInput2" placeholder="Ваш телефон" type="tel">
+                                                    </div>
+                                                </form>
+                                                <button class="btn-yellow btn offer__button">Узнать стоимость</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="section hero">
+            <div class="container">
+                <div class="row">
+                    <div class="hero-content col-12 col-md-6">
+                        <h2 class="section-title">Внутренняя отделка </br>помещений "под ключ"</h2>
+                        <span class="section-subtitle">с гарантией качества, прописанной в договоре</span>
+                        <ul class="hero-list list-unstyled">
+                            <li class="hero-list__item d-flex">
+                                <div class="hero-list__image">
+                                    <img src="img/hero/clock.svg" alt="">
+                                </div>
+                                <div class="hero-list__text">Точно соблюдаем срок</div>
+                            </li>
+                            <li class="hero-list__item d-flex">
+                                <div class="hero-list__image">
+                                    <img src="img/hero/calculator.svg" alt="">
+                                </div>
+                                <div class="hero-list__text">Рассчитаем смету на работы и маетриалы в день обращения</div>
+                            </li>
+                            <li class="hero-list__item d-flex">
+                                <div class="hero-list__image">
+                                    <img src="img/hero/paint-board.svg" alt="">
+                                </div>
+                                <div class="hero-list__text">Предложим более 100 вариантов исполнения дизайна вашего дома</div>
+                            </li>
+                        </ul>
+
+                    </div>
+                    <img class="col-12 col-md-6 hero-image" src="img/hero/hero-image.png" alt="План квартиры">
+                </div>
+            </div>
+        </section>
+        <section class="section offer-section">
+            <div class="container">
+                <div class="offer-block col-12 col-lg-6">
+                        <h3 class="section-title offer-block__title">Мы бесплатно разработаем дизайн-проект Вашегo жилья и реализуем его!</h3>
+                        <span class="section-subtitle offer-block__subtitle">Оставьте заявку на разработку<br>бесплатного дизайн-проекта!</span>
+                    <form action="#" class="form">
+                        <div class="form-contacts row px-0">
+                            <div class="col-12 col-lg-6 pl-lg-0">
+                                <input type="text" class="form-contacts__input form-control" placeholder="Ваше имя">
+                            </div>
+                            <div class="col-12 col-lg-6 pr-lg-0">
+                                <input type="tel" class="form-contacts__input form-contacts__phone form-control" placeholder="Ваш телефон">
+                            </div>
+                        </div>
+                        <button class="btn btn-yellow form-btn">Получить бесплатный дизайн-проект</button>
+                        <div class="form-text d-flex justify-content-between">
+                            <span>Наш менеджер перезвонит</br>Вам в течение 60 секунд</span>
+                            <span>или перезвоните нам сами<br><a class="form-text__phone font-weight-bold" href="tel:+7 (495) 42-251-31">+7 (495) 42-251-31</a></span>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <section class="slider-section">
+            <div class="container">
+                <h2 class="section-title slider__title">Работая с 2007 года,<br> мы сделали более 500 ремонтов в квартирах</h2>
+                <div class="slider">
+                    <div class="slider__item"><img src="img/slider/slider-image1.png" alt=""></div>
+                    <div class="slider__item"><img src="img/slider/slider-image2.png" alt=""></div>
+                    <div class="slider__item"><img src="img/slider/slider-image3.png" alt=""></div>
+                    <div class="slider__item"><img src="img/slider/slider-image1.png" alt=""></div>
+                    <div class="slider__item"><img src="img/slider/slider-image2.png" alt=""></div>
+                    <div class="slider__item"><img src="img/slider/slider-image3.png" alt=""></div>
+                </div>
+                <div class="arrows">
+                    <div class="arrows__left">
+                        <img src="img/slider/left-arrow.png" alt="">
+                    </div>
+                    <div class="arrows__right">
+                        <img src="img/slider/right-arrow.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script
+    src="https://code.jquery.com/jquery-3.5.1.slim.js" integrity="sha256-DrT5NfxfbHvMHux31Lkhxg42LY6of8TaYyK50jnxRnM=" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('.slider').slick({
+                infinite: true,
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                variableWidth: true,
+                prevArrow: $('.arrows__left'),
+                nextArrow: $('.arrows__right'),
+                responsive: [
+                    {
+                    breakpoint: 1200,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 1,
+                    }
+                    },
+                    {
+                    breakpoint: 768,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 1
+                    }
+                    }
+                ]
+            });
+        });     
+    </script>
+</body> 
+</html>
